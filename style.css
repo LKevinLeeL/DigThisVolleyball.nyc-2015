@@ -13,7 +13,7 @@ body {
 
 .bg {
 
-	background: url("img/home2.jpg");
+	background: url("img/home.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -164,7 +164,7 @@ hr	{
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-} 
+}
 
 
 .Upcoming-Event h1 {
@@ -188,7 +188,7 @@ hr	{
   padding-right: 2%;
   width: 48%;
   float: left;
- 
+
 }
 
 
@@ -220,7 +220,7 @@ hr	{
   font-variant: small-caps;
   font-size: 1.2em;
 
-  
+
 }
 
 ul {
@@ -367,7 +367,7 @@ a {
   color: white;
   font-family: "Trebuchet MS";
   font-variant: small-caps;
-  font-size: 1.2em;  
+  font-size: 1.2em;
   color: white;
 }
 
@@ -625,7 +625,7 @@ textarea::-ms-input-placeholder {
 }
 
 [placeholder]:focus::-webkit-input-placeholder {
-  transition: text-indent 0.5s 0.5s ease; 
+  transition: text-indent 0.5s 0.5s ease;
   text-indent: -100%;
   opacity: 1;
 }
@@ -979,7 +979,3 @@ nav ul a {
   position: relative;
   padding: 0 1%;
 }
-
-
-
-
