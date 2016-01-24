@@ -12,16 +12,15 @@ body {
 
 
 .bg {
-
 	background: url("img/home.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	min-height: 100%;
 	width: 100%;
-
-
 }
+
+
 
 .all {
 	padding-top: 5%;
@@ -32,14 +31,11 @@ body {
 }
 
 .all h1 {
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 3.5em;
   color: white;
-  font-weight: 200;
-  font-style: italic;
-  text-transform: uppercase;
+  font-weight: lighter;
   margin-bottom: 25px;
-  text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
 }
 
 hr	{
@@ -50,15 +46,13 @@ hr	{
 
 
 .mission-statement h2 {
-  font-family: 'Trebuchet MS';
-  font-weight: 200;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: lighter;
   line-height: 30px;
-  font-variant: small-caps;
-  /*font-style: italic;*/
   color: white;
   font-size: 1.3em;
-  /*text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);*/
   margin-bottom: -10px;
+	letter-spacing: 1px;
  }
 
 
@@ -89,97 +83,110 @@ hr	{
   margin-bottom: 0px;
 }
 
-
-.scroll-down {
-  position: absolute;
-  text-align: center;
-  width: 100%;
-  bottom: 5px;
-    -webkit-animation: blink 3s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation: blink 3s;
-    -moz-animation-iteration-count: infinite;
-    -o-animation: blink 3s;
-    -o-animation-iteration-count: infinite;
-}
-@-webkit-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-@-o-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+.clinic {
+	background: #f1f1f1;
 }
 
-.scroll-down p {
-  font-family: 'Trebuchet MS';
-  font-size: 18px;
+.clinic-inner h1 {
+	color: black !important;
+	text-shadow: none !important;
+}
+
+.clinic-details {
+  color: black;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.2em;
+	font-weight: 200;
+	text-transform: uppercase;
+}
+
+.clinic-event-detail {
+color: black;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1.1em;
+line-height: 35px;
+font-weight: 300;
+}
+
+.clinic-description {
+color: black;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1em;
+line-height: 25px;
+margin-bottom: 0px;
+margin-top: 1px;
+font-weight: 300;
+font-style: italic;
+}
+
+.RSVP-clinic {
+  width: 240px;
+  height: 50px;
   color: white;
-  font-style: italic;
-  font-variant: small-caps;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+  border: 1px solid white;
+  border-radius: 50px;
+  background: #e51937;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  /*text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.32);*/
 }
-.scroll-down img  {
-  margin-top: -10px;
-  width: 35px;
-  height: 35px;
+
+.paypal-button {
+	background-color: initial !important;
 }
 
+.dropdown {
+    border: 1px solid #ccc;
+    width: 224px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff url("http://www.scottgood.com/jsg/blog.nsf/images/arrowdown.gif") no-repeat 98% 50%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 5px;
+}
 
+.dropdown select {
+    padding: 9px 9px;
+    width: 224px;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+      -moz-appearance: none;
+            appearance: none;
+}
 
-.Upcoming-Event {
+.dropdown select:focus {
+    outline: none;
+}
 
-  background-image: url('img/eventbg.jpg');
+.Team {
+  background-color: #f1f1f1;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
 }
 
-.tournament-event {
-  background-image: url('img/01.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-}
 
-
-.Upcoming-Event h1 {
-  font-family: "Trebuchet MS";
+.Team h1 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
   /*text-decoration: underline;*/
   font-size: 2.5em;
   color: white;
-  font-weight: 200;
+  font-weight: lighter;
   font-style: italic;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 20px;
-  text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
+
 
 }
 
@@ -194,7 +201,7 @@ hr	{
 
 
 .event-title {
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 1.5em;
@@ -203,7 +210,7 @@ hr	{
 
 
 .event-date {
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-variant: small-caps;
   color: white;
   font-size: 1em;
@@ -214,18 +221,9 @@ hr	{
 
 }
 
-.clinic-details {
-  color: white;
-  font-family: "Trebuchet MS";
-  font-variant: small-caps;
-  font-size: 1.2em;
-
-
-}
-
 ul {
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: white;
 }
 
@@ -241,7 +239,7 @@ ul {
   width: 240px;
   height: 50px;
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1em;
   border: 1px solid white;
   border-radius: 2px;
@@ -258,7 +256,7 @@ ul {
 
 
 .fee-title {
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-transform: uppercase;
   color: white;
   font-size: 1.5em;
@@ -357,7 +355,7 @@ a {
 
 .price-per-person {
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-variant: small-caps;
   font-size: 1.2em;
   color: white;
@@ -365,7 +363,7 @@ a {
 
 .discount-message {
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-variant: small-caps;
   font-size: 1.2em;
   color: white;
@@ -374,9 +372,8 @@ a {
 .brochure-img {
   width: 100%;
   height: 250px;
-
-
 }
+
 
 .inner {
   overflow: hidden;
@@ -386,71 +383,58 @@ a {
 
 }
 
-.coach-tony {
+.coaches {
   text-align: center;
 }
 
-.coach-tony h1 {
-  font-family: "Trebuchet MS";
+.coaches h1 {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   text-align: center;
   /*text-decoration: underline;*/
   font-size: 2.5em;
-  color: white;
-  font-weight: 200;
+  color: black;
+  font-weight: lighter;
   font-style: italic;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 10px;
   padding-top: 20px;
   padding-bottom: 23px;
-  text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
+
 
 }
 
 .coach-name{
 text-align: center;
-font-family: "Trebuchet MS";
-text-transform: uppercase;
-color: white;
-font-size: 1.5em;
-color: white;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+color: #417c9a;
+font-size: 1.2em;
+font-weight: 200;
+/*text-transform: uppercase;*/
 }
 
-.tonypic {
-  width: 180px;
-  height: 180px;
+.coach-pic {
+  width: 200px;
+  height: 200px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.392);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.392);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.392);
+	border: 3px solid #417c9a;
 }
 
-
-.tony-full-name {
-font-family: "Trebuchet MS";
-font-variant: small-caps;
-text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
-color: white;
-font-size: 1.5em;
-text-align: center;
-}
-
-.tony-descriptions {
-color: white;
-font-family: "Trebuchet MS";
-font-variant: small-caps;
-font-size: 1.2em;
+.coach-bio {
+color: #7C7C7C;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 1em;
 line-height: 25px;
 padding-bottom: 50px;
 margin-bottom: 0px;
-
+font-weight: 200;
 }
 
 
 .Open-Play {
-  background-image: url('img/01.jpg');
+  background-image: url('img/eventbg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -464,31 +448,32 @@ margin-bottom: 0px;
   padding-bottom: 20px;
 }
 
+
+
 .inner-open-play h1 {
   margin: 0;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 2.5em;
   color: white;
-  font-weight: 200;
+  font-weight: lighter;
   font-style: italic;
   text-transform: uppercase;
-  text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
+
   padding-top: 15px;
 }
 
 .sunday-open-play {
-font-family: "Trebuchet MS";
-font-variant: small-caps;
-text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 color: white;
-font-size: 1.5em;
+font-size: 1.2em;
 text-align: center;
 margin-top: 15px;
+text-transform: uppercase;
+font-weight: 200;
 }
-
 .open-play-description {
 color: white;
-font-family: "Trebuchet MS";
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-variant: small-caps;
 font-size: 1.1em;
 line-height: 25px;
@@ -498,10 +483,10 @@ margin-top: 15px;
 
 .open-play-event-detail {
 color: white;
-font-family: "Trebuchet MS";
-font-variant: small-caps;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 1.1em;
 line-height: 35px;
+font-weight: 300;
 }
 
 
@@ -509,10 +494,10 @@ line-height: 35px;
   width: 240px;
   height: 50px;
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1em;
   border: 1px solid white;
-  border-radius: 2px;
+  border-radius: 50px;
   /*background: #bcbcbc;*/
   background: rgba(84, 101, 100, 0.5);
   cursor: pointer;
@@ -526,7 +511,7 @@ line-height: 35px;
   width: 240px;
   height: 50px;
   color: rgba(255, 255, 255, .6);
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 1em;
   /*border: 2px solid white;*/
   border: 2px solid rgba(255, 255, 255, .6);
@@ -546,7 +531,7 @@ text-decoration: line-through;
 
 .contact-us {
   /*background-image: url('img/get-in-touch.jpg');*/
-  background-image: url('img/05.jpg');
+  background-image: url('img/open-play.jpg');
   /*background: #bcbcbc;*/
   background-repeat: no-repeat;
   background-size: cover;
@@ -563,25 +548,25 @@ text-decoration: line-through;
 .contact-us-wrap h1 {
 padding-top: 5px;
 margin-top: 0px;
-font-family: "Trebuchet MS";
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 text-align: center;
 font-size: 2.5em;
 color: white;
-font-weight: 200;
+font-weight: lighter;
 font-style: italic;
 text-transform: uppercase;
-text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.392);
+
 margin-top: 0;
 padding-top: 20px;
 }
 
 .contact-us-wrap p {
 color: white;
-font-family: "Trebuchet MS";
-font-variant: small-caps;
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 font-size: 1.2em;
 line-height: 25px;
 padding-bottom: 10px;
+font-weight: 200;
 }
 
 .created {
@@ -683,7 +668,7 @@ cursor: pointer;
 .order-list-register {
   text-align: left;
   color: white;
-  font-family: "Trebuchet MS";
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   font-variant: small-caps;
   font-size: 1.2em;
   margin-top: -15px;
@@ -721,7 +706,7 @@ cursor: pointer;
   padding-bottom: 20px;
 }
 
-.Upcoming-Event h1 {
+.Team h1 {
   padding: 15px 5% 0px 5%;
 }
  .inner {
@@ -741,7 +726,7 @@ cursor: pointer;
   padding-bottom: 30px;
  }
 
-.tonypic{
+.coach-pic{
   margin-top: 20px;
 }
 
@@ -760,11 +745,11 @@ cursor: pointer;
  }
 
 .clinic-details {
-  text-align: left;
+  text-align: center;
   padding: 0px 5% 0px 5%;
 }
 
-.tony-descriptions {
+.coach-bio {
   padding: 0px 5% 0px 5%;
   padding-bottom: 10px;
 }
@@ -794,16 +779,6 @@ cursor: pointer;
 .inner-open-play {
   padding: 0px 5% 0px 5%;
   padding-bottom: 10px;
-}
-
-
-.bg {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
-  min-height: 100%;
-  width: 100%;
-
 }
 /* .ss-form-question {
   width: 300px;
@@ -934,12 +909,10 @@ nav ul li {
   }
 }
 nav ul a {
-  /*color: #888888;*/
-  font-family: 'Trebuchet MS';
-  font-weight: 200;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: black;
-  text-transform: uppercase;
   font-size: 13px;
+	font-weight: initial;
 }
 
 .mobile-toggle {
@@ -966,7 +939,6 @@ nav ul a {
   width: 30px;
   height: 4px;
   margin-bottom: 5px;
-  border-radius: 1000px;
   /*background: #8f8f8f;*/
   background: black;
   display: block;
@@ -978,4 +950,24 @@ nav ul a {
   margin: 0 auto;
   position: relative;
   padding: 0 1%;
+}
+
+/*COUNTDOWN*/
+
+#countdown{
+  text-align: center;
+  margin: auto;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 2em;
+	font-weight: 200;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+#span{
+  text-align: center;
+  margin: auto;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1em;
+	font-weight: 200;
 }
