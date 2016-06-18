@@ -463,8 +463,17 @@ font-weight: 200;
   font-weight: lighter;
   font-style: italic;
   text-transform: uppercase;
-
   padding-top: 15px;
+}
+
+.inner-open-play h4 {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.1em;
+  color: white;
+  font-weight: lighter;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 
 .sunday-open-play {
@@ -509,6 +518,11 @@ font-weight: 300;
   margin-top: 10px;
   margin-bottom: 25px;
   /*text-shadow: 2px 3.464px 1px rgba(0, 0, 0, 0.32);*/
+	transition: all 0.8s ease;
+}
+
+.RSVP-sunday:hover{
+	background: #ed1c40;
 }
 
 
@@ -531,6 +545,20 @@ font-weight: 300;
 }
 .cross-out {
 text-decoration: line-through;
+}
+
+.private-coaching p {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	color: #7C7C7C;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: .8em;
+	line-height: 18px;
+	padding-bottom: 50px;
+	margin-bottom: 0px;
+	font-weight: 200;
 }
 
 
@@ -646,20 +674,25 @@ textarea::-ms-input-placeholder {
 }
 
 .jfk-button {
-border-style: none;
-border-width: 2px;
-/*border-color: rgb(234, 234, 234);*/
-border-radius: 2px;
-/*background-color: rgb(52, 152, 219);*/
-/*background-color: rgb(234, 234, 234);*/
-background: rgba(84, 101, 100, 0.25);
-height: 50px;
-width: 500px;
-font-size: 18px;
-color: white;
-border: 1px solid white;
-cursor: pointer;
-/*-webkit-appearance: none;*/
+	border-style: none;
+	border-width: 2px;
+	/*border-color: rgb(234, 234, 234);*/
+	border-radius: 2px;
+	background-color: rgb(52, 152, 219);
+	/*background-color: rgb(234, 234, 234);*/
+	/*background: rgba(84, 101, 100, 0.25);*/
+	height: 50px;
+	width: 500px;
+	font-size: 18px;
+	color: white;
+	border: 1px solid white;
+	cursor: pointer;
+	/*-webkit-appearance: none;*/
+	transition: all 0.8s ease;
+}
+
+.jfk-button:hover {
+	background-color: #2772A4;
 }
 
 
@@ -679,7 +712,7 @@ cursor: pointer;
   margin-top: -15px;
 }
 
-@media only screen and (max-width: 766px)  {
+@media only screen and (max-width: 768px)  {
  .all {
   max-width: 460px;
   padding-top: 1%;
@@ -799,6 +832,11 @@ cursor: pointer;
  }
 */
 
+.private-coaching p {
+	padding-left: 10px;
+	padding-right: 10px;;
+}
+
 }
 
 
@@ -821,7 +859,7 @@ cursor: pointer;
   padding-bottom: 6px;
   font-family: "Montserrat", sans-serif;
 }
-/*@media only screen and (max-width: 766px) {
+/*@media only screen and (max-width: 768px) {
   .main_h {
     padding-top: 25px;
   }
@@ -860,7 +898,7 @@ cursor: pointer;
   margin-top: -17px;
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   .logo {
     float: none;
     margin-left: 10px;
@@ -880,7 +918,7 @@ nav {
   width: 60%;
   margin-top: -13px;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   nav {
     width: 100%;
   }
@@ -891,7 +929,7 @@ nav ul {
   text-align: right;
   float: right;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   nav ul {
     padding-top: 10px;
     margin-bottom: 22px;
@@ -906,7 +944,7 @@ nav ul li {
   margin-left: 35px;
   line-height: 1.5;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   nav ul li {
     width: 100%;
     padding: 7px 0;
@@ -932,7 +970,7 @@ nav ul a {
   -moz-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
 }
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 768px) {
   .mobile-toggle {
     display: block;
   }
